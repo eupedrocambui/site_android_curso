@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf) format('opentype')
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3DDA84, #1A5C38);
+    text-align: center;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+body {
+    background-color: #82D9A0;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgb(150, 150, 150);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    min-width: 250px;
+    max-width: 800px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+section {
+    background-color: white;
+}
+
+footer {
+    background-color: #1A5C38;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Idroid';
+    color: #1A5C38;
+}
+
+h1#titulo_principal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+h1#titulo_links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h2 {
+    color: #2b9c5e;
+    font-family: 'Idroid';
+    font-size: 1em;
+}
+
+h2#subtitulo_principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h2.topicos {
+    background-image: linear-gradient(to right, #3dda847c, rgb(255, 255, 255));
+    padding: 5px
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+p#txt_rodape {
+    font-size: 1.2em;
+    text-align: center;
+    color: #82D9A0;
+    padding: 20px;
+    margin: 0px;
+}
+
+a {
+    color: #9fffcae4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px
+}
+
+a.link_nav:hover {
+    background-color: #9fffcae4;
+    color: #1A5C38;
+    border-radius: 5px;
+    
+}
+
+span {
+    color: white
+}
+
+a.link_txt {
+    color:#2FA866;
+    padding: 0px;
+}
+
+a.link_txt:hover {
+    color: #1A5C38;
+}
+
+a.link_txt2 {
+    background-color: #3be185;
+    color: #1A5C38;
+    padding: 2px;
+}
+
+a.link_txt2:hover {
+    text-decoration: underline;
+}
+
+a.link_txt2::after {
+    content: ' 🔗';
+}
+
+a.link_lista {
+    text-decoration: dotted underline;
+    color: black
+}
+
+a.link_rodape {
+    padding: 0px;
+    color: white;
+    font-weight: bolder;
+}
+
+a.link_rodape:hover {
+    color: #31af6a;
+    text-decoration: underline;
+}
+
+section#video {
+    background-color: #1A5C38;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 30px 30px 54% 30px;
+    text-align: center;
+    position: relative;
+}
+
+section#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+div#links {
+    background-color:#C5EBD6;
+    margin: 20px;
+    padding-bottom: 3px;
+    border-radius: 15px;
+}
+
+div.container {
+    text-align: center;
+}
+
+li.item_lista {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li.item_lista::before {
+    content: '✔️ ';
+}
+
+ul {
+    display: inline-block;
+}
+
+#sec_link > #links > p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
